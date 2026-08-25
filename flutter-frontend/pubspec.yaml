@@ -1,0 +1,37 @@
+name: sikanua
+description: SIKANUA — Nutrition & Fitness AI
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP & Streaming
+  http: ^1.2.0
+  dio: ^5.4.0
+
+  # State management
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+  # UI
+  flutter_markdown: ^0.6.22
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+
+  # Utils
+  uuid: ^4.3.3
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
